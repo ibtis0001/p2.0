@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -10,4 +10,77 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+} */
+
+body {
+
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.jumbo{
+  /* background-image: url("https://cdn.agriland.ie/uploads/2016/04/market-trade-up.jpg"); */
+  /* background-image: url("http://bit.ly/2jYWkg9"); */
+  /* background-image: url('https://www.theice.com/publicdocs/images/Hero_Cryptocurrency_Data_Feed1.jpg'); */
+  background-image: url('https://insights.dice.com/wp-content/uploads/2018/05/Cryptocurrency-Bitcoin-Blockchian-Dice.jpg');
+  /* background-image: url('https://www.pymnts.com/wp-content/uploads/2019/07/crypto-corporate-fraud-kyc-aml.jpg'); */
+  height: 550px;
+  background-size: cover;
+  background-repeat:no-repeat;
+  color: white;
+}
+.formo{
+  margin:200px auto;
+  width: 750px;
+  background:rgba(184,210,213,0.56);
+  color: white;
+}
+.cardo{
+  margin:-150px auto;
+  margin-left : 30px;
+  height: 150px;
+  width:80px;
+  border-radius: 30px;
+  color: white;
+
+
+}
+span{
+  color:rgb(75, 75, 85);
+  font-weight: 900;
+  font-size:56px;
+
+}
+.jumba{
+  text-align: center;
+}
+
+
+select {
+
+  width:15%;
+  font-size: .9em;
+  min-height: 1em;
+  height: 44px;
+  margin: 0;
+  color:#888;
+  border:none;
+  outline:none;
+  display: block;
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  appearance:none;
+  cursor:pointer;
+  
+}
+
+
